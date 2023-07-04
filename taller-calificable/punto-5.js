@@ -17,9 +17,9 @@ function PuntajesClase(puntajes, miPuntaje) {
     return miPuntaje > promedioClase;
   }
   
-  // Ejemplo de uso
-  var puntajesClase = [80, 75, 90, 85];
-  var miPuntaje = 95;
-  var resultado = PuntajesClase(puntajesClase, miPuntaje);
-  console.log(resultado);  // Salida: true
+
+  let puntajesClase = [80, 75, 90, 85];
+  let miPuntaje = 95;
+  let resultado = PuntajesClase(puntajesClase, miPuntaje);
+  console.log(resultado); 
   
